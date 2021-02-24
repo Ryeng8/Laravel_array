@@ -1,0 +1,28 @@
+tr.hide-table-padding td {
+    padding: 0;
+}
+
+.expand-button {
+    position: relative;
+}
+
+.accordion-toggle .expand-button:after
+{
+    position: absolute;
+    left:.75rem;
+    top: 0%;
+    transform: translate(0, -50%);
+    content: '-';
+}
+.accordion-toggle.collapsed .expand-button:after
+{
+    content: '+';
+}
+.bs-example{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.accordion .fa{
+    margin-right: 0.5rem;
+}
